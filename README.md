@@ -9,7 +9,7 @@ This project is a command-line interface (CLI) application for recognizing anima
 - Real-time hand sign detection using webcam.
 - Utilizes an SVM classifier trained on animal hand sign data.
 - Outputs the name of the recognized animal.
-- Supports multiple animal signs with accurate predictions.
+- Supports multiple animal signs.
 
 ## Requirements
 
