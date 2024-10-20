@@ -46,7 +46,9 @@ It is recommended to use a virtual environment to manage dependencies. Follow th
    pip install -r requirements.txt
    ```
 
+
 ## Getting Started
+
 ### Clone the Repository
    ```bash
       pip install -r requirements.txt
