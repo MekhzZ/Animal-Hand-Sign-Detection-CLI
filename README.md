@@ -42,6 +42,12 @@ It is recommended to use a virtual environment to manage dependencies. Follow th
 
 3. **Install the Required Packages**
 
-```bash
-pip install -r requirements.txt
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Getting Started
+### Clone the Repository
+   ```bash
+      pip install -r requirements.txt
+   ```
