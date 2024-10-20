@@ -54,7 +54,7 @@ with mp_hands.Hands(model_complexity=1, max_num_hands=1, min_detection_confidenc
                     if predicted_proba >= confidence_threshold:
                         animal_name = label_encoder.inverse_transform([predicted_class])[0]
                         cv2.putText(frame, f"Detected: {animal_name} ({predicted_proba:.2f})", (10, 30), 
-                                    cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2, cv2.LINE_AA)
+                                    cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 0), 2, cv2.LINE_AA)
                     else:
                         animal_name = "Unknown"
                         cv2.putText(frame, f"Confidence too low", (10, 30), 
