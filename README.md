@@ -11,11 +11,6 @@ This project is for experimental purpose where I want to explore more features o
 - Outputs the name of the recognized animal.
 - Supports multiple animal signs.
 
-## Dataset
-
-- "video_files" ------> ".mp4"    will be preprocessed by using open-cv and mediapipe.
-
-- Hand landmarks obtained after preprocessing are used as the input features for SVM Classifier.
 
 ## Requirements
 
@@ -67,31 +62,6 @@ It is recommended to use a virtual environment to manage dependencies. Follow th
 ## Hand-Sign Guide
 
    ![Animal Hand Sign Detection](Hand-sign_Guide.png)
-
-## How I Trained the Model
-
-                                 Video_files(tiger,cow,ok,bull)
-                                             |
-                                             |
-                                             |
-                                             +
-                                    Captured_frames.py -----------------> /Captured_frames
-                                             |
-                                             |
-                                             |
-                                             +
-                                        Mediapipe.py--------------------> /npy_files ----------------> Annonated_frames.py
-                                                                              |                                  |
-                                                                              |                                  |
-                                                                              |                                  |
-                                                                              +                                  +
-                                                                        train_model.py                    /Annonated_frames
-                                                                              |
-                                                                              |
-                                                                              |
-                                                                              +
-                                                                        /Trained_model
-
 
 
 ## Contributing
