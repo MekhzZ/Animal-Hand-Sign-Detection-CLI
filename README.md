@@ -61,8 +61,9 @@ It is recommended to use a virtual environment to manage dependencies. Follow th
    ```
 
 ### Running the Application
-1. Ensure your webcam is connected and functional.
-2. Run the application using the following command:
+
+   1. Ensure your webcam is connected and functional.
+   2. Run the application using the following command:
    ```bash
      python main.py
    ```
