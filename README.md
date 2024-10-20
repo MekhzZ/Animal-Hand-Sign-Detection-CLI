@@ -53,3 +53,16 @@ It is recommended to use a virtual environment to manage dependencies. Follow th
    ```bash
      git clone https://github.com/MekhzZ/Animal-Hand-Sign-Detection-CLI.git
    ```
+
+### Go to the Directory
+
+   ```bash
+     cd Animal-Hand-Sign-Detection-CLI
+   ```
+
+### Running the Application
+1. Ensure your webcam is connected and functional.
+2. Run the application using the following command:
+   ```bash
+     python main.py
+   ```
