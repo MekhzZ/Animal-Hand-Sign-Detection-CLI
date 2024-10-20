@@ -61,7 +61,10 @@ It is recommended to use a virtual environment to manage dependencies. Follow th
 
 ## Hand-Sign Guide
 
+
 The videos were taken in bright light so, it may not work as expected in dim light.
+
+
 
    ![Animal Hand Sign Detection](Hand-sign_Guide.png)
 
