@@ -96,3 +96,10 @@ It is recommended to use a virtual environment to manage dependencies. Follow th
                                                                               |
                                                                               +
                                                                         /Trained_model
+
+
+
+## Contributing
+
+   
+Contributions are welcome! If you have suggestions or improvements, feel free to create a pull request.
