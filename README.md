@@ -13,9 +13,9 @@ This project is for experimental purpose where I want to explore more features o
 
 ## Dataset
 
-"video_files" ------> ".mp4"    will be preprocessed by using open-cv and mediapipe.
+- "video_files" ------> ".mp4"    will be preprocessed by using open-cv and mediapipe.
 
-Hand landmarks obtained after preprocessing are used as the input features for SVM Classifier.
+- Hand landmarks obtained after preprocessing are used as the input features for SVM Classifier.
 
 ## Requirements
 
