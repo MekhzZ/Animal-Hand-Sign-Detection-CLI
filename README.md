@@ -75,9 +75,24 @@ It is recommended to use a virtual environment to manage dependencies. Follow th
 
 ## How I Trained the Model
 
-            Video_files(tiger,cow,ok,bull)
-                        |
-                        |
-                        |
-                        +
-            Captured_frames.py ----------> /Captured_frames
+                                 Video_files(tiger,cow,ok,bull)
+                                             |
+                                             |
+                                             |
+                                             +
+                                    Captured_frames.py -----------------> /Captured_frames
+                                             |
+                                             |
+                                             |
+                                             +
+                                        Mediapipe.py--------------------> /npy_files ----------------> Annonated_frames.py
+                                                                              |                                  |
+                                                                              |                                  |
+                                                                              |                                  |
+                                                                              +                                  +
+                                                                        train_model.py                    /Annonated_frames
+                                                                              |
+                                                                              |
+                                                                              |
+                                                                              +
+                                                                        /Trained_model
