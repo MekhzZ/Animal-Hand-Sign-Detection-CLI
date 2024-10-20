@@ -11,18 +11,12 @@ This project is for experimental purpose where I want to explore more features o
 - Outputs the name of the recognized animal.
 - Supports multiple animal signs.
 
+## Dataset
+
+"video_files" contains .mp4 datasets whch will be preprocessed by using open-cv and mediapipe.
+Hand landmarks obtained after preprocessing are used as the input features for SVM Classifier.
+
 ## Requirements
-
-To run this project, ensure you have the following installed:
-
-- Python 3.x
-- OpenCV
-- Mediapipe
-- Scikit-learn
-- Joblib
-- NumPy
-
-### Virtual Environment Setup
 
 It is recommended to use a virtual environment to manage dependencies. Follow these steps:
 
