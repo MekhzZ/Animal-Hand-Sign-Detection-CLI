@@ -64,6 +64,7 @@ It is recommended to use a virtual environment to manage dependencies. Follow th
 
    1. Ensure your webcam is connected and functional.
    2. Run the application using the following command:
+      
    ```bash
      python main.py
    ```
@@ -71,3 +72,12 @@ It is recommended to use a virtual environment to manage dependencies. Follow th
 ## Hand-Sign Guide
 
    ![Animal Hand Sign Detection](Hand-sign_Guide.png)
+
+## How I Trained the Model
+
+            Video_files(tiger,cow,ok,bull)
+                        |
+                        |
+                        |
+                        +
+            Captured_frames.py ----------> /Captured_frames
