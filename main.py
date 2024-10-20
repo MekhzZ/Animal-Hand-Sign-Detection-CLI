@@ -6,9 +6,9 @@ import os
 
 current_dir = os.getcwd()
 
-model = joblib.load('exports/svm_animal_sign_model.pkl')
-label_encoder = joblib.load('exports/animal_label_encoder.pkl')
-scaler = joblib.load('exports/animal_scaler.pkl')
+model = joblib.load('Trained_model/svm_animal_sign_model.pkl')
+label_encoder = joblib.load('Trained_model/animal_label_encoder.pkl')
+scaler = joblib.load('Trained_model/animal_scaler.pkl')
 
 # Initialize Mediapipe for hand tracking
 mp_hands = mp.solutions.hands
