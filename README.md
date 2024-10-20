@@ -50,6 +50,6 @@ It is recommended to use a virtual environment to manage dependencies. Follow th
 ## Getting Started
 
 ### Clone the Repository
-      ```bash
-        git clone https://github.com/MekhzZ/Animal-Hand-Sign-Detection-CLI.git
-      ```
+   ```bash
+     git clone https://github.com/MekhzZ/Animal-Hand-Sign-Detection-CLI.git
+   ```
