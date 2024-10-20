@@ -70,4 +70,4 @@ It is recommended to use a virtual environment to manage dependencies. Follow th
 
 ## Hand-Sign Guide
 
-![Animal Hand Sign Detection](Hand-sign_Guide.png)
+   ![Animal Hand Sign Detection](Hand-sign_Guide.png)
