@@ -67,3 +67,7 @@ It is recommended to use a virtual environment to manage dependencies. Follow th
    ```bash
      python main.py
    ```
+
+## Hand-Sign Guide
+
+
