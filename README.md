@@ -23,11 +23,11 @@ It is recommended to use a virtual environment to manage dependencies. Follow th
 2. **Activate Virtual Envioronment**
 - On Windows
    ```bash
-   venv\Scripts\activate
+   venv/Scripts/activate
    ```
 - On MacOS/Linux
     ```bash
-   venv\bin\activate
+   venv/bin/activate
    ```
 
 
