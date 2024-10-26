@@ -30,11 +30,6 @@ It is recommended to use a virtual environment to manage dependencies. Follow th
    venv\bin\activate
    ```
 
-3. **Install the Required Packages**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 
 ## Getting Started
@@ -48,6 +43,12 @@ It is recommended to use a virtual environment to manage dependencies. Follow th
 
    ```bash
      cd Animal-Hand-Sign-Detection-CLI
+   ```
+
+- Install the Required Packages
+
+   ```bash
+   pip install -r requirements.txt
    ```
 
 - Running the Application
